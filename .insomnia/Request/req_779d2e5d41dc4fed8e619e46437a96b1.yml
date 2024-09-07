@@ -1,0 +1,26 @@
+_id: req_779d2e5d41dc4fed8e619e46437a96b1
+type: Request
+parentId: fld_1a6987d373384992b03b9ea60ccec1b6
+modified: 1725695190297
+created: 1725690913207
+url: "{{ _.api_url_http }}/download/cancel"
+name: /download/cancel
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token_api_http }}"
+  prefix: "{{ _.token_type_http }}"
+metaSortKey: -1725690840051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

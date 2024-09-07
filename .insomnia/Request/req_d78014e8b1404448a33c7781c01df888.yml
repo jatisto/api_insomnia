@@ -1,0 +1,30 @@
+_id: req_d78014e8b1404448a33c7781c01df888
+type: Request
+parentId: fld_1a6987d373384992b03b9ea60ccec1b6
+modified: 1725695381872
+created: 1725690913216
+url: "{{ _.api_url_http }}/get/list/episodes"
+name: /get/list/episodes
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"main_url": "{{_.base_url_ts}}/show/yasak_elma_dub"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1725690839851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
