@@ -1,7 +1,7 @@
 _id: req_4088bdfdf4744ebeae5ef6f222c0863b
 type: Request
 parentId: fld_1a6987d373384992b03b9ea60ccec1b6
-modified: 1725730323044
+modified: 1725813716238
 created: 1725690913200
 url: "{{ _.api_url_http }}/download/start"
 name: /download/start
@@ -15,6 +15,8 @@ body:
     	"episodes": [
     		"10",
     		"11",
+    		"12",
+    		"13",
     		"14"
     	],
     	"season": "3"

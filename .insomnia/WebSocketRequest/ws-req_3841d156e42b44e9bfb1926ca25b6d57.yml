@@ -1,10 +1,10 @@
 _id: ws-req_3841d156e42b44e9bfb1926ca25b6d57
 type: WebSocketRequest
 parentId: fld_b5b979b432d047ae9b9dc339f06c3ea8
-modified: 1725690913197
+modified: 1725813517172
 created: 1725690913197
-name: New WebSocket Request
-url: wss://localhost:8000/ws
+name: ws
+url: ws://{{ _.ws }}/ws
 metaSortKey: -1725690893503
 headers:
   - name: User-Agent
