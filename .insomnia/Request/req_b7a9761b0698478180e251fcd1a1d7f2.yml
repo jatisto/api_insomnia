@@ -1,10 +1,10 @@
-_id: req_d9e9f88454ad4702b8a2849a5fcb80a9
+_id: req_b7a9761b0698478180e251fcd1a1d7f2
 type: Request
 parentId: fld_dad8dccc1ce84cbb9983878479878184
-modified: 1725904742378
-created: 1725690913214
-url: "{{ _.nginx_url_http }}/progress/clear"
-name: /progress/clear
+modified: 1725904724687
+created: 1725904675144
+url: "{{ _.nginx_url_http }}/download/cancel"
+name: /download/cancel
 description: ""
 method: POST
 body: {}
@@ -12,8 +12,11 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
-metaSortKey: -1725901533596.125
+authentication:
+  type: bearer
+  token: "{{ _.token_api_http }}"
+  prefix: "{{ _.token_type_http }}"
+metaSortKey: -1725901533618
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

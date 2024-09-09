@@ -1,0 +1,41 @@
+_id: req_5281bc9432a647f5a87d2c75ba82cea9
+type: Request
+parentId: fld_dad8dccc1ce84cbb9983878479878184
+modified: 1725904719894
+created: 1725904657111
+url: "{{ _.nginx_url_http }}/download/start"
+name: /download/start
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"main_url": "{{_.base_url_ts}}/show/yasak_elma_dub",
+    	"episodes": [
+    		"10",
+    		"11",
+    		"12",
+    		"13",
+    		"14"
+    	],
+    	"season": "3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token_api_http }}"
+  prefix: "{{ _.token_type_http }}"
+metaSortKey: -1725901533643
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

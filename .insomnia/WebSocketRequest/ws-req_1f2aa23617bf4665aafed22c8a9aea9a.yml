@@ -1,0 +1,18 @@
+_id: ws-req_1f2aa23617bf4665aafed22c8a9aea9a
+type: WebSocketRequest
+parentId: fld_a47d4db67b694fffa5d6bc60fff84fec
+modified: 1725904849143
+created: 1725904775845
+name: ws
+url: ws://{{ _.ws_nginx }}/ws
+metaSortKey: -1725904798195
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+parameters: []
+settingEncodeUrl: true
+settingStoreCookies: true
+settingSendCookies: true
+settingFollowRedirects: global
+description: ""

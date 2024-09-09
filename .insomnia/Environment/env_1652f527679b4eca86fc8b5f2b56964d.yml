@@ -1,7 +1,7 @@
 _id: env_1652f527679b4eca86fc8b5f2b56964d
 type: Environment
 parentId: env_59dfc6102901cb1423669427ba0754ca295ce3a4
-modified: 1725813413805
+modified: 1725904844355
 created: 1725393109560
 name: TS
 data:
@@ -13,6 +13,8 @@ data:
   token_type_http: "{% response 'body', 'req_7636e3299ed64a848939d5fbe3cd60ed',
     'b64::JC50b2tlbl90eXBl::46b', 'never', 60 %}"
   ws: 127.0.0.1:8000/api/v1
+  nginx_url_http: http://172.31.255.56:8000/api/v1
+  ws_nginx: 172.31.255.56:8000/api/v1
 dataPropertyOrder:
   "&":
     - base_url_ts
@@ -21,6 +23,8 @@ dataPropertyOrder:
     - token_api_http
     - token_type_http
     - ws
+    - nginx_url_http
+    - ws_nginx
 color: "#a21a55"
 isPrivate: false
 metaSortKey: 1725393109560

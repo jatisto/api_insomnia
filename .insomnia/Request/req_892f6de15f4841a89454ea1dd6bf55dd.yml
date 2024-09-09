@@ -1,9 +1,9 @@
-_id: req_7636e3299ed64a848939d5fbe3cd60ed
+_id: req_892f6de15f4841a89454ea1dd6bf55dd
 type: Request
-parentId: fld_dad8dccc1ce84cbb9983878479878184
-modified: 1725904650331
-created: 1725690913218
-url: "{{ _.nginx_url_http }}/auth/token"
+parentId: fld_1a6987d373384992b03b9ea60ccec1b6
+modified: 1725904635728
+created: 1725904635728
+url: "{{ _.api_url_http }}/auth/token"
 name: /auth/token
 description: ""
 method: POST
@@ -29,7 +29,7 @@ headers:
     value: insomnia/2023.5.8
     id: pair_83fa05a5eb214aaab0361591852b0317
 authentication: {}
-metaSortKey: -1725901533693
+metaSortKey: -1725690840301
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
-_id: req_d9e9f88454ad4702b8a2849a5fcb80a9
+_id: req_1a44aeaf0794442e851ef6aae47d2275
 type: Request
-parentId: fld_dad8dccc1ce84cbb9983878479878184
-modified: 1725904742378
-created: 1725690913214
-url: "{{ _.nginx_url_http }}/progress/clear"
+parentId: fld_1a6987d373384992b03b9ea60ccec1b6
+modified: 1725904708944
+created: 1725904704055
+url: "{{ _.api_url_http }}/progress/clear"
 name: /progress/clear
 description: ""
 method: POST
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1725901533596.125
+metaSortKey: -1725690839751
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
