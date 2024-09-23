@@ -1,7 +1,7 @@
 _id: req_5281bc9432a647f5a87d2c75ba82cea9
 type: Request
 parentId: fld_dad8dccc1ce84cbb9983878479878184
-modified: 1725904719894
+modified: 1727113581477
 created: 1725904657111
 url: "{{ _.nginx_url_http }}/download/start"
 name: /download/start
@@ -11,13 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"main_url": "{{_.base_url_ts}}/show/yasak_elma_dub",
+    	"main_url": "{{_.base_url_ts}}/show/tensei_shitara_slime_datta_ken",
+    	"save_dir": "C:\\Users\\EABDYUSHEV-PC\\Videos\\ОМ"
     	"episodes": [
-    		"10",
-    		"11",
-    		"12",
-    		"13",
-    		"14"
+    		"20",
+    		"21",
+    		"22",
+    		"23"
     	],
     	"season": "3"
     }

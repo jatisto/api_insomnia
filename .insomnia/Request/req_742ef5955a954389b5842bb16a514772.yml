@@ -1,7 +1,7 @@
 _id: req_742ef5955a954389b5842bb16a514772
 type: Request
 parentId: fld_dad8dccc1ce84cbb9983878479878184
-modified: 1725904736295
+modified: 1727005872650
 created: 1725904693343
 url: "{{ _.nginx_url_http }}/get/list/episodes"
 name: /get/list/episodes
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"main_url": "{{_.base_url_ts}}/show/yasak_elma_dub"
+    	"main_url": "{{_.base_url_ts}}/show/frasier_1993"
     }
 parameters: []
 headers:
